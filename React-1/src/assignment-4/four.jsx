@@ -53,7 +53,9 @@ function Four() {
 
 
   return (
-    <div>
+    <div style={styles.container}>
+      <div style={styles.appWrapper}>
+
       <h1>React Forms</h1>
 
 
@@ -81,7 +83,24 @@ function Four() {
         <button type="submit">Submit Uncontrolled</button>
       </form>
     </div>
+    </div>
+
   );
 }
-
+const styles = {
+  container: {
+    height: "100vh",
+    width: "100vw",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
+  },
+  appWrapper: {
+    borderRadius: "10px",
+    padding: "40px",
+    boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.1)",
+    width: "400px",
+  },
+}
 export default Four;
