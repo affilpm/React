@@ -27,7 +27,6 @@ const Two = () => {
             <p>{counts.current}</p>
         </div>
      </div>
-
     )
 
 }

@@ -7,7 +7,8 @@ import ToDo from "./to-do-list/to-do"
 function App() {
 return (
 <div>
-<One/>
+<Two/>
+
 </div>
 )
 }
